@@ -1,4 +1,4 @@
-
+package environment;
 
 import methods.AssertionMethods;
 import methods.ClickElementsMethods;
