@@ -16,6 +16,30 @@ Cucumber-JVM is a Cucumber implementation for the most popular JVM languages.  T
 
 ![alt text](https://goo.gl/kC61fA)
 
+#### Maven Central - https://search.maven.org/
 
-## Story
+#### org.apache.poi
 
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml-schemas</artifactId>
+            <version>3.9</version>
+        </dependency>
+        
+#### info.cukes
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>1.2.2</version>
+            <scope>test</scope>
+        </dependency>
+        
+#### info.cukes        
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>1.2.2</version>
+            <scope>test</scope>
+        </dependency>
+        
+        
