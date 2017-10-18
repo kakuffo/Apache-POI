@@ -1,4 +1,4 @@
-package methods;
+package utils;
 
 import java.util.List;
 
@@ -10,7 +10,7 @@ import environment.BaseTest;
 
 public class AssertionMethods extends SelectElementByType implements BaseTest
 {
-    //This file contains assertion methods which are called from predefinedStepDefinitions
+    //This file contains assertion utils which are called from predefinedStepDefinitions
 
     //SelectElementByType eleType= new SelectElementByType();
     private WebElement element=null;

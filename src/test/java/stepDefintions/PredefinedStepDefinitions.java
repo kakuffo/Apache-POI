@@ -3,7 +3,7 @@ package stepDefintions;
 
 import java.io.IOException;
 
-import methods.TestCaseFailed;
+import utils.TestCaseFailed;
 import cucumber.api.java.en.Then;
 import main.java.BaseTest;
 
@@ -460,7 +460,7 @@ public class PredefinedStepDefinitions implements BaseTest
         clickObj.click("partialLinkText", accessName);
     }
 
-    //Progress methods
+    //Progress utils
 
     // wait for specific period of time
     @Then("^I wait for (\\d+) sec$")
@@ -501,7 +501,7 @@ public class PredefinedStepDefinitions implements BaseTest
         javascriptObj.handleAlert("dismiss");
     }
 
-    //Screen shot methods
+    //Screen shot utils
 
     @Then("^I take screenshot$")
     public void take_screenshot() throws IOException

@@ -1,14 +1,14 @@
 package environment;
 
-import methods.AssertionMethods;
-import methods.ClickElementsMethods;
-import methods.ConfigurationMethods;
-import methods.InputMethods;
-import methods.JavascriptHandlingMethods;
-import methods.MiscMethods;
-import methods.NavigateMethods;
-import methods.ProgressMethods;
-import methods.ScreenShotMethods;
+import utils.AssertionMethods;
+import utils.ClickElementsMethods;
+import utils.ConfigurationMethods;
+import utils.InputMethods;
+import utils.JavascriptHandlingMethods;
+import utils.MiscMethods;
+import utils.NavigateMethods;
+import utils.ProgressMethods;
+import utils.ScreenShotMethods;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;

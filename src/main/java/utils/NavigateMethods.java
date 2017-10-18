@@ -1,4 +1,4 @@
-package methods;
+package utils;
 
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
