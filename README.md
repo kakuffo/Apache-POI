@@ -15,3 +15,25 @@ PowerPoint and Excel. Apache-POI API - https://poi.apache.org/apidocs/
 Cucumber-JVM is a Cucumber implementation for the most popular JVM languages.  This document is the reference for features that are specific to Cucumber-JVM.  Please see the general reference for features that are common to all Cucumber implementations.
 
 ![alt text](https://goo.gl/kC61fA)
+
+
+## Story
+
+Feature: There was a problem
+
+###### Given I am on 'Driving and transport' page
+###### When I click 'Get vehicle information from DVLA'
+###### Then I am directed to 'Confirm Vehicle'
+###### And Registration number is ''
+###### And 'Make' is ''
+###### And 'Colour' is
+
+
+###### Feature: There was a problem
+
+###### Given I am on 'Driving and transport' page
+###### And I click 'Get vehicle information from DVLA'
+###### And I Click 'Continue' 
+###### Then I am shown 'There was a problem'
+###### And I am shown 'Please amend the following details:'
+###### And I am shown 'Select an option' link
