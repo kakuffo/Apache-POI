@@ -19,7 +19,7 @@ import java.util.Iterator;
 public class CsvAccessor {
 
     public static void main(String[] args) throws IOException {
-        String excelFilePath = "Books.xlsx";
+        String excelFilePath = "main/resources/Books.xlsx";
         FileInputStream inputStream = new FileInputStream(new File(excelFilePath));
 
         Workbook workbook = new XSSFWorkbook(inputStream);
