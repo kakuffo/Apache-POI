@@ -42,4 +42,12 @@ Cucumber-JVM is a Cucumber implementation for the most popular JVM languages.  T
             <scope>test</scope>
         </dependency>
         
+#### opencsv
+
+ <dependency>
+     <groupId>com.opencsv</groupId>
+     <artifactId>opencsv</artifactId>
+     <version>4.0</version>
+  </dependency>
+        
         
